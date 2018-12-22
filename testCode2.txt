@@ -1,0 +1,26 @@
+{
+  a = 1
+}
+
+;
+
+var a = 1, b, c
+
+function a(b, c, d) {
+  return a
+}
+
+if (a) else if (b) {} else {c = 1}
+
+for (a = 1; ;) {
+  b = 1
+}
+
+for (a in c) {
+  d = 1
+}
+
+with(a) {
+  b = 2
+}
+
