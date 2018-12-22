@@ -10,11 +10,11 @@ if (a) else if (b) {} else {c = 1}
 
 文法方面参考
 [mozilla](https://www-archive.mozilla.org/js/language/grammar14.html)和
-[tc39](https://tc39.github.io/ecma262/#sec-ecmascript-language-expressions)， 所以有些地方实现和JESC不太相同
+[tc39](https://tc39.github.io/ecma262/#sec-ecmascript-language-expressions)， 所以有些地方实现和JESC有些不同
 
-分文件后，不用全局变量控制，引用san的walker思想
+分文件后，不用全局变量控制，引用san的walker思想
 
-正则和除号比较难区分，jesc这块判断略微粗糙，于是参考的esprima的实现方式
+正则和除号比较难区分，jesc这块判断略微粗糙，于是参考的esprima的实现方式
 
 但是esprima的实现目前也是有问题的
 比如case
@@ -26,6 +26,7 @@ if ((a) /bb/
 ### TODO
 - 打包
 - 单测
+- 报错提示
 - 等等
 
 
