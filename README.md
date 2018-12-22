@@ -6,11 +6,11 @@
 ```js
 if (a) else if (b) {} else {c = 1}
 ```
-在jesc下面会报错
+在jesc下面会报错
 
 文法方面参考
 [mozilla](https://www-archive.mozilla.org/js/language/grammar14.html)和
-[tc39](https://tc39.github.io/ecma262/#sec-ecmascript-language-expressions)， 所以有些地方实现和JESC有些不同
+[tc39](https://tc39.github.io/ecma262/#sec-ecmascript-language-expressions)， 所以有些地方实现和JESC有些不同
 
 分文件后，不用全局变量控制，引用san的walker思想
 
