@@ -19,7 +19,7 @@ if (a) else if (b) {} else {c = 1}
 但是esprima的实现目前也是有问题的
 比如case
 ```js
-if ((a) /bb/
+if ((a)) /bb/
 ```
 无法将 /bb/ 为正则识别处理，这里已经修复了这个问题，有空再给esprima提个pr吧
 
